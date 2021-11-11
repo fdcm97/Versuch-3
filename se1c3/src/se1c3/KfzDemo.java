@@ -1,4 +1,4 @@
-package se1c3;
+package org.hsd.inflab.se1c3;
 
 public class KfzDemo {
 
@@ -14,10 +14,10 @@ public class KfzDemo {
 		System.out.println("Der Minivan kann " + minivan.reichweite() +" Kilometer weit fahren.");
 		System.out.println("Der Sportwagen kann " + sportwagen.reichweite() +" Kilometer weit fahren.");
 		
-		System.out.println("\nDer Spritverbrauch betr‰gt " + minivan.spritVerbrauch(252) +" Liter auf 100km.");
-		System.out.println("\nDer Spritverbrauch betr‰gt " + auto.spritVerbrauch(252) +" Liter auf 100km.");
+		System.out.println("\nDer Spritverbrauch betr√§gt " + minivan.spritVerbrauch(252) +" Liter auf 100km.");
+		System.out.println("\nDer Spritverbrauch betr√§gt " + auto.spritVerbrauch(252) +" Liter auf 100km.");
 		auto = magirus;
-		System.out.println("Der Spritverbrauch des Lkw mit Sportwagenstatus betr‰gt " + auto.spritVerbrauch(252) +" Liter auf 100km.");
+		System.out.println("Der Spritverbrauch des Lkw mit Sportwagenstatus betr√§gt " + auto.spritVerbrauch(252) +" Liter auf 100km.");
 
 	}
 	
