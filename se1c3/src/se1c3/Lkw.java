@@ -1,4 +1,4 @@
-package se1c3;
+package org.hsd.inflab.se1c3;
 
 public class Lkw extends KfzV0 {
 	
